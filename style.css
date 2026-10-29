@@ -1,0 +1,223 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+nav{
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 40px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+button{
+    position: fixed;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+section{
+    min-height: 500px;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+section h2 {
+    color: darkblue;
+    font-size: 35px;
+}
+
+section {
+    background-color: white;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.15);
+}
+
+section h2 {
+    color:darkblue;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form button {
+    padding: 12px;
+    font-size: 16;
+    background-colour: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cusor: pointer;
+
+}
+
+form button:hover {
+    background-color: #172554
+}
+
+@media (max-width: 600px) {
+    nav {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation hover effect */
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    transform: translateY(-2px);
+    opacity: 0.7;
+}
+
+/* Section animation */
+selection {
+    transition: 0.3s ease;
+}
+
+/*Button hover effect */
+button,
+.contact-buttton {
+    transition: 0.3s ease;
+}
+
+button:hover,
+.contact-buttton:hover {
+    transform: translateY(-3px);
+}
+
+/* Project hover effect */
+#projectss p {
+    transition: 0.3s ease;
+}
+
+#projects p:hover {
+    transform: scale(1.03)
+}
+
+.project-card {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0,15);
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    line-height:  1.6;
+}
+
+.project-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.social-links {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.social-links a:hover {
+    transform: translateY(-3px);
+    opacity: 0.7;
+}
